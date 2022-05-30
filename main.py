@@ -3,6 +3,7 @@ import itertools
 from PIL import Image
 import zipfile
 import random
+
 def rep(a):
     simbol = "\ "
     simbol = simbol.replace(" ",'')
@@ -110,3 +111,4 @@ if ans == "Y" or ans == 'y':
         arcname = files[i]
         newzip.write(pathhofresult + "/" + f,arcname = f)
     print("Готово!")
+print("Завершено!")
